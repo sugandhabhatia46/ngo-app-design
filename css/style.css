@@ -329,8 +329,8 @@ header {
   margin: auto;
 }
 
-.prev,
-.next {
+.about-container .card .box .team-slideshow .prev,
+.about-container .card .box .team-slideshow .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -345,7 +345,7 @@ header {
   user-select: none;
 }
 
-.next {
+.about-container .card .box .team-slideshow .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }

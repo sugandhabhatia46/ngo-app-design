@@ -330,15 +330,15 @@ header {
 }
 
 .about-container .box .carousel .mySlides {
-  background: #222;
+  background: var(--text-color);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   transition: all 0.3s ease;
 }
 
-.projects .carousel .card:hover {
-  background: crimson;
+.about-container .box .carousel .mySlides:hover {
+  background: var(--main-color);
 }
 
 .projects .carousel .card .box {

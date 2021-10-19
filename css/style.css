@@ -341,7 +341,7 @@ header {
   background: var(--main-color);
 }
 
-.projects .carousel .card .box {
+.about-container .box .carousel .mySlides {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -349,27 +349,19 @@ header {
   transition: all 0.3s ease;
 }
 
-.projects .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-
-.projects .carousel .card .text {
+.about-container .box .carousel .mySlides h4 {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
 
-.projects .carousel .card img {
+.about-container .box .carousel .mySlides img {
   height: 150px;
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 5px solid var(--main-color);
   transition: all 0.3s ease;
-}
-
-.projects .carousel .card:hover img {
-  border-color: #fff;
 }
 
 .owl-dots {
@@ -383,7 +375,7 @@ header {
   margin: 0 10px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid var(--main-color) !important;
   transition: all 0.3s ease;
 }
 
@@ -394,7 +386,7 @@ header {
 
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: var(--main-color) !important;
 }
 
 .about-container .card .box .team-slideshow img {

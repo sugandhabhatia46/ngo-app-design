@@ -29,4 +29,3 @@ $('.carousel').owlCarousel({
     }
   }
 })
-})

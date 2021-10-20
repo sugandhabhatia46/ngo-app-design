@@ -565,6 +565,11 @@ header {
   top: 40px;
 }
 
+.contact-btn {
+  position: relative;
+  top: 20px;
+}
+
 /* responsive media query start */
 @media (max-width: 1400px) {
   .why-us-container {

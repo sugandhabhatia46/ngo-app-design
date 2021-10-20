@@ -1,3 +1,19 @@
+function myReadMoreFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readMore-btn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -9,23 +25,4 @@ window.onscroll = () => {
   navbar.classList.remove('active');
 }
 
-$('.carousel').owlCarousel({
-  margin: 20,
-  loop: true,
-  autoplayTimeOut: 2000,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: false
-    },
-    600: {
-      items: 1,
-      nav: false
-    },
-    1000: {
-      items: 1,
-      nav: false
-    }
-  }
-})
+
